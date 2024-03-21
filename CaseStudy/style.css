@@ -1,0 +1,323 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 2em 1em;
+    max-width: 55em;
+    margin: auto;
+    
+    @media screen and (min-width: 30em) {
+      padding: 2em;
+    }
+    @media screen and (min-width: 30em) {
+      line-height: 1.5;
+    }
+    @media screen and (min-width: 40em) {
+      font-size: 18px;
+    }
+    
+  }
+  
+  .gutters { 
+       
+       padding: 10px; 
+         border: 20px;
+       border-top: 20px;
+                  
+  }
+  
+  .row {
+    
+    @extend .group;
+    margin: 0 -.5em;
+  }
+  .column { float: left; }
+  @media screen and (min-width: 50%) {
+      .half { width: 50%; }
+    .third, .thirds { width: 50%; }
+    .fourth, .fourths { width: 50%; }
+    .fifth, .fifths { width: 50%; }
+    .sixth, .sixths { width: 50%; }
+  }
+  @media screen and (min-width: 70%) {
+    .one.third, .one.thirds { width: 33.33333%; }
+    .two.third, .two.thirds { width: 66.66667%; }
+    .one.fourth, .one.fourths { width: 25%; }
+    .three.fourth, .three.fourths { width: 75%; }
+    .fifth, .fifths { width: 33.33333%; }
+    .three.fifths, .four.fifths { width: 66.66667%; }
+    .sixth, .sixths { width: 33.33333%; }
+  }
+  @media screen and (min-width: 20%) {
+  }
+  @media screen and (min-width: 60%) {
+    .one.fifth, .one.fifths { width: 20%; }
+    .two.fifth, .two.fifths { width: 40%; }
+    .three.fifth, .three.fifths { width: 60%; }
+    .four.fifth, .four.fifths { width: 80%; }
+    .sixth, .sixths { width: 16.66667%; }
+  }
+  
+  
+  a {
+    color: #F58E84;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  em, cite, i {
+    font-style: italic;
+  }
+  
+  h1, h2, h3, h4{
+    font-family: 'Electrolize', sans-serif;
+  }
+  h1 {
+    color: #496071;
+    font-size: 1.75em;
+    line-height: 1.2;
+    font-family: 'Electrolize', sans-serif;
+  }
+  h2 {
+    
+    color: #496071;
+    font-size: 1.25em;
+  }
+  h3 {
+    color: #496071;
+    font-size: 1.2em;
+  }
+  p, ul, ol {
+    margin: 1.5em 0;
+  }
+  main > header {
+    margin: .75em 0 1.5em;
+    padding: 1.5em 0;
+    text-align: center;
+    h1 {
+      font-family: 'Electrolize', sans-serif;
+      color: #496071;
+    }
+    h2 {
+      color: #B0B3B6;
+      i {
+        font-family: 'Electrolize', sans-serif;
+      }
+    }
+    @media screen and (min-width: 30%) {
+      font-size: 1.2em;
+      }
+  }
+  article {
+    h2 {
+      color: #496071;
+      margin: 1em 0 -1em;
+      font-weight: bold;
+    }
+    }
+    ul, ol {
+      margin-left: 1.5em;
+    }
+    ul {
+      li {
+        font-family: 'Electrolize', sans-serif;
+        list-style: square;
+      }
+    }
+    dl {
+      margin: 1.5em 0;
+      dt {
+        font-family: 'Electrolize', sans-serif;
+        color: rgba(73,96,113,1); 
+        font-weight: bold;
+        font-size: 18pt;
+      }
+      dd {
+        color: rgba(0,0,0,.7);
+        font-family: 'Electrolize', sans-serif;
+        font-size: 14pt;
+        margin-bottom: .75em;
+      }
+    }
+  
+  
+  .page-header {
+    border-bottom: 1px dotted #F58E84;
+    text-align: center;
+    .logo {
+      h1 {
+        font-family: 'Electrolize', sans-serif;
+        line-height: 1;
+        font-weight: regular;
+        
+      }
+      h2 {
+        color: rgba(0,0,0,.25);
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        word-spacing: .25em;
+        text-align: center;
+       
+       }
+      
+    }
+    .main-nav {
+      font-family: 'Electrolize', sans-serif;
+      font-size: 1.25em;
+      margin: .5em 0;
+      word-spacing: .5em;
+      ul {
+        margin: 0;
+      }
+      li {
+        font-family: 'Electrolize', sans-serif;
+        display: inline-block;
+      }
+      a {
+        display: inline-block;
+        color: rgba(0,0,0,.5);
+        text-decoration: none;
+        border-bottom: 2px solid rgba(0,0,0,.1);
+        margin: .25em 0;
+        line-height: 1.1;
+      }
+      .active a {
+        color: inherit;
+        border-bottom-color: rgba(0,0,0,.2);
+      }
+    }
+    @media screen and (min-width: 30em) {
+      text-align: left;
+      padding-bottom: 1em;
+      border-bottom-width: 2px;
+      .logo {
+        float: left;
+      }
+      .main-nav {
+        float: right;
+      }
+    }
+  }
+  
+  aside, .aside {
+    @media screen and (min-width: 30em) {
+      float: right;
+      width: 50px;
+    }
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+    background: 20px;
+    header {
+      font-weight: bold;
+    }
+    ul {
+      margin: 0 .75em 0 1.5em;
+    }
+  }
+  
+  .module {
+    padding: .5em;
+    header {
+      padding: .25em .5em .5em;
+      margin: -.5em -.5em .5em;
+    }
+  }
+  
+   .two {
+    padding: .5em;
+    header {
+      padding: .25em .5em .5em;
+      margin: -.5em -.5em .5em;
+    }
+  }
+  
+  
+  
+  .pictures {
+    text-align: center;
+    margin-bottom: 20px;
+    font: 8pt;
+  }
+  
+  .secondheader {
+    font-size: 20pt;
+    color: rgba(96,101,119,.8);
+    
+  }
+  
+  
+  
+  h4 {
+    color: #606577;
+    font-size: 14pt;
+  }
+  
+  li {
+    color: #606577;
+    font-size: 12pt;
+  }
+    
+  .spaceme{
+   
+      
+    p { color: rgba(255, 255, 255, 0);
+    }
+    margin: 20px;
+    
+  }
+  
+  .spaceme1{
+    margin:20px;
+    border-top: 2pt dotted;
+    border-color: #F58E84; 
+      
+    p { color: rgba(255, 255, 255, 0);
+    }
+    margin: 20px;
+    
+  }
+  
+  .quotes{
+    max-width: 100%;
+    font-family: 'Electrolize', sans-serif;
+    float:right;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    p {
+      margin-right: 0;
+    }
+  }
+  
+  .button {
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    background: #BDE5F1;
+    font-family: 'Electrolize', sans-serif;
+    a {
+      text-decoration: none;
+      color: rgba(0,0,0,.5);
+      font-family: 'Electrolize', sans-serif;
+    }
+  }
+
+    
+  
+  .li {
+    font-family: 'Electrolize', sans-serif;
+  }
+  
+  .active {
+    font-size: 18pt;
+  }
+  
+  
