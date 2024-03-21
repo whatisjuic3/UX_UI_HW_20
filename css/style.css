@@ -145,7 +145,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 32px;
-    background: linear-gradient(rgba(37, 39, 37, 0.959), rgba(37, 39, 37, 0.959)),  url("../images/giphy.gif");
+    background: linear-gradient(rgba(37, 39, 37, 0.959), rgba(37, 39, 37, 0.959)),  url("images/giphy.gif");
     
   }
 
@@ -170,7 +170,7 @@
       color: white;
       margin-bottom: 0;
       padding-top: 50px;
-      background: linear-gradient(rgba(37, 39, 37, 0.959), rgba(37, 39, 37, 0.959)),  url("../images/giphy.gif");
+      background: linear-gradient(rgba(37, 39, 37, 0.959), rgba(37, 39, 37, 0.959)),  url("images/giphy.gif");
   }
   
   .menu {
@@ -258,7 +258,7 @@
 .project1 {
   border-radius: 25px;
   margin-top: 20px;
-  background-image: url("../images/JRNY.jpg");
+  background-image: url("images/JRNY.jpg");
   background-size: 70%;
   background-repeat: repeat;
   font-family: 'Neue Machina';
@@ -266,14 +266,14 @@
 .project2 {
   border-radius: 25px;
   margin-top: 20px;
-  background-image: url("../images/meowSafe.jpg");
+  background-image: url("images/meowSafe.jpg");
   background-size: 70%;
   background-repeat: repeat;
 }
 .project3 {
   border-radius: 25px;
   margin-top: 20px;
-  background-image: url("../images/NSA:CSS.jpg");
+  background-image: url("images/NSA:CSS.jpg");
   background-size: 75%;
   background-repeat: repeat;
   background-position: center;
@@ -282,7 +282,7 @@
 .project4 {
   border-radius: 25px;
   margin-top: 20px;
-  background-image: url("../images/ChristelHouse.jpg");
+  background-image: url("images/ChristelHouse.jpg");
   background-size: 80%;
   background-repeat: repeat;
 }
